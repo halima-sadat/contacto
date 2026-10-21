@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contacto.css">
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Contactanos</h1>
+        <p>Si tienes alguna pregunta, no dudes en contactarnos. <br>Estamos aqui para ayudarte.</p>
+        <h1>Servicio al cliente</h1>
+        <p>Nuestro objetivo es brindar el mejor servicio a <br>cada cliente, <br>Estamos aqui para resolver todos sus
+            <br>problemas y dificultades.
+        </p>
+        <h2>Envianos un correo electronico:</h2>
+        <p> info@rattanebile.</p>
+        <h2>Grupo de Facebook</h2>
+        <p>Facebook</p>
+        <h2>Llamenos:</h2>
+        <p> 600 00 00 00 (el mismo numero para llamar y para WhatsApp)</p>
+        <h2>Horario de apertura</h2>
+
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Hora</th>
+            </tr>
+            <tr>
+                <td>Martes a viernes</td>
+                <td>De 9:30 a 13:30 y de 16:30 a 20:00</td>
+            </tr>
+            <tr>
+                <td>Sabados</td>
+                <td>De 10:00 a 14:00</td>
+            </tr>
+            <tr>
+                <td>Lunes y domingos</td>
+                <td>Cerrado</td>
+            </tr>
+
+        </table>
+
+        <h2>Nuestra oficina:</h2>
+        <p>Calle del Molino, 14, bajo. Villabuena dle Monte (pueblo de la montaña con rutas cercanas) </p>
+    </div>
+
+    <div class="contenedor">
+        <fieldset>
+            <form>
+                <h2> Ponte en contacto</h2>
+                <label for="nombre">Nombre</label><br>
+                <input type="text"><br>
+                <label for="apellido">Apellido</label><br>
+                <input type="text"><br>
+                <label for="email">Correo</label><br>
+                <input type="email" id="email" name="email" required placeholder="Tu correo electrónico"><br>
+                <label for="orden">Numero del orden</label><br>
+                <input type="text"><br>
+                <button>Enviar</button>
+
+            </form>
+
+        </fieldset>
+
+    </div>
+
+
+</body>
+
+</html>
